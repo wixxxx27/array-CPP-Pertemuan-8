@@ -14,7 +14,7 @@ struct zodiac {
     const char* namaBulan[] = {
         "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"
     };
-    return namaBulan[bln - 1]; // Menggunakan bln - 1 karena array dimulai dari indeks 0
+    return namaBulan[bln - 1]; // Menggunakan bln - 1 untuk mulai dari 0 karena array dimulai dari indeks 0
 }
 
 const char* getZodiak(zodiac tgl) {
